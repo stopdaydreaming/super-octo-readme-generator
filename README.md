@@ -43,4 +43,4 @@ None at this time
 None at this time  
 
 ## Badges
-COMING SOON
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
