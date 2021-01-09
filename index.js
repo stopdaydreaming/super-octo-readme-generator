@@ -15,11 +15,6 @@ const questions = [
   },
   {
     type: "input",
-    message: "Table of Contents:",
-    name: "contents"
-  },
-  {
-    type: "input",
     message: "Installation Instructions:",
     name: "installation"
   },
@@ -63,13 +58,14 @@ const questions = [
     name: "tests"
   },
   {
-    type: "list",
-    choices: [
-        "Please contact the author with questions about this repo.",
-        "Not accepting questions."
-      ],
-    message: "Questions:",
-    name: "questions"
+    type: "input",
+    message: "Github User Name:",
+    name: "github"
+  },
+  {
+    type: "input",
+    message: "Contact Email:",
+    name: "email"
   }
 ];
 

@@ -6,7 +6,6 @@
   testing
 
   ## Table of Contents (Optional)
-  testing
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
@@ -49,5 +48,5 @@ SOFTWARE.
   ## Tests
   No tests at this time.
 
-  ## Tests
-  Not accepting questions.
+  ## Questions
+  Please contact @[testing](https://www.github.com/testing) on github or email me at <testing@email.com> with any questions.

@@ -41,7 +41,6 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents (Optional)
-  ${data.contents}
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
@@ -66,7 +65,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  ${data.questions}
+  Please contact @[${data.github}](https://www.github.com/${data.github}) on github or email me at <${data.email}> with any questions.
 `;
 }
 
