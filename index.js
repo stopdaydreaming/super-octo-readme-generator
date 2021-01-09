@@ -65,8 +65,8 @@ const questions = [
   },
   {
     type: "input",
-    message: "Testing:",
-    name: "testing"
+    message: "Tests:",
+    name: "tests"
   },
   {
     type: "input",
@@ -82,8 +82,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 const writeToFile = (file, data) => {
-  const dynamicString = generateMarkdown(data);
-  fs.writeFile(file, dynamicString, err => {
+  fs.writeFile(file, generateMarkdown(data), err => {
     if (err) {
       console.error(err);
     } else {
@@ -94,7 +93,7 @@ const writeToFile = (file, data) => {
 
 // TODO: Create a function to initialize app
 const init = () => {
-  inquirer.prompt(questions).then((response) => {
+  inquirer.prompt(questions).then(response => {
     console.log(response);
     writeToFile("GENERATED_README.MD", response);
   });
