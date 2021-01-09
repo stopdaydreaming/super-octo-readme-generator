@@ -5,23 +5,65 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
-// 1)project title 
-// 2)project description 
-// 3)table of contents
-// 4)installation
-// 5)usage
-// 6)license
-// 7)contributing
-// 8)tests
-// 9)questions
-// 10)how to report issues 
+    {
+        type: "input",
+        message: "Project Title:",
+        name: "title"
+    },
+    {
+        type: "input",
+        message: "Project Description:",
+        name: "description"
+    },
+    {
+        type: "editor",
+        message: "Table of Contents:",
+        name: "contents"
+    },
+    {
+        type: "input",
+        message: "Installation Instructions:",
+        name: "installation"
+    },
+    {
+        type: "input",
+        message: "Project Usage:",
+        name: "usage"
+    },
+    {
+        type: "list",
+        message: "Choose a License:",
+        name: "license"
+    },
+    {
+        type: "input",
+        message: "Contributing:",
+        name: "contributing"
+    },
+    {
+        type: "input",
+        message: "Testing:",
+        name: "testing"
+    },
+    {
+        type: "input",
+        message: "Questions:",
+        name: "questions"
+    },
+    {
+        type: "input",
+        message: "Reporting Issues:",
+        name: "issues"
+    }
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    console.log("function intialized");
+}
 
 // Function call to initialize app
 init();
