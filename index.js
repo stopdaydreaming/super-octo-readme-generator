@@ -45,12 +45,16 @@ const questions = [
             "GNU Affero General Public License v3.0",
             "GNU General Public License v2.0",
             "GNU Lesser General Public License v2.1"
-        ]
+        ],
         message: "Choose a License:",
         name: "license"
     },
     {
-        type: "input",
+        type: "list",
+        choices: [
+            "Please contact the author to be added as a collaborator to this project and to discuss contribution guidelines.",
+            "No contributions are being accepted at this time."
+        ],
         message: "Contributing:",
         name: "contributing"
     },
@@ -71,11 +75,17 @@ const questions = [
     }
 ];
 
+const promptUser = () => {
+    inquirer.prompt([...questions]).then((response) => {
+        console.log("success");
+    })
+}
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+const writeToFile = (fileName, data) => {}
 
 // TODO: Create a function to initialize app
-function init() {
+const init = () => {
     console.log("function intialized");
 }
 
