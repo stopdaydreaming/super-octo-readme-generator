@@ -1,9 +1,9 @@
 
-  # testing
+  # Wonderful Coding Magic
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  testing
+  This repo is full of wonderment. Magic code that will make your life easy and grant all your wishes.
 
   ## Table of Contents (Optional)
   * [Installation](#installation)
@@ -12,13 +12,13 @@
   * [License](#license)
 
   ## Installation
-  testing
+  Just clone it and run it locally
 
   ## Usage 
-  testing
+  Use anytime you need a sprinkle of magic
 
   ## Credits
-  testing
+  @stopdaydreaming
   
   ## License
   MIT License
@@ -49,4 +49,4 @@ SOFTWARE.
   No tests at this time.
 
   ## Questions
-  Please contact @[testing](https://www.github.com/testing) on github or email me at <testing@email.com> with any questions.
+  Please contact @[stopdaydreaming](https://www.github.com/stopdaydreaming) on Github.com or email me at <hello@stopdaydreaming.com> with any questions.
