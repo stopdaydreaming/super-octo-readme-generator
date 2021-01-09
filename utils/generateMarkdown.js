@@ -35,19 +35,13 @@ function generateMarkdown(data) {
   ${data.credits}
   
   ## License
-  ${data.license}
+  ${renderLicenseSection(data.license)}
   
   ## Contributing
   ${data.contributing}
   
   ## Tests
   ${data.tests}
-
-  ## Questions
-  ${data.questions}
-  
-  ## Issues
-  ${data.issues}
 `;
 }
 

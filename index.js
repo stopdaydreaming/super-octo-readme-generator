@@ -65,18 +65,12 @@ const questions = [
   },
   {
     type: "input",
-    message: "Tests:",
+    choices: [
+        "Please contact the author to write tests.",
+        "No tests at this time."
+      ],
+    message: "Testing Instructions:",
     name: "tests"
-  },
-  {
-    type: "input",
-    message: "Questions:",
-    name: "questions"
-  },
-  {
-    type: "input",
-    message: "Reporting Issues:",
-    name: "issues"
   }
 ];
 
