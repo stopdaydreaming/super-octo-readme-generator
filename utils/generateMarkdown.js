@@ -1,14 +1,28 @@
+require('./licenses');
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 const renderLicenseBadge = (license) => {}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-const renderLicenseLink = (license) => {}
+const renderLicenseLink = (license) => {
+  license === "No License" ? `` : `[License](#License)`
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-const renderLicenseSection = (license) => {}
+const renderLicenseSection = (license) => {
+  if(license === "MIT License") {
+    return mit;
+  } else if (license === "GNU General Public License"){
+    return gnu;
+  } else if (license === "Apache License"){
+    return apache
+  } else {
+    return "";
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -23,7 +37,7 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
-  * [License](#license)
+  * ${renderLicenseLink(data.license)}
 
   ## Installation
   ${data.installation}
