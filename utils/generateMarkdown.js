@@ -64,6 +64,9 @@ function generateMarkdown(data) {
   
   ## Tests
   ${data.tests}
+
+  ## Questions
+  ${data.questions}
 `;
 }
 

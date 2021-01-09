@@ -61,6 +61,15 @@ const questions = [
       ],
     message: "Testing Instructions:",
     name: "tests"
+  },
+  {
+    type: "list",
+    choices: [
+        "Please contact the author with questions about this repo.",
+        "Not accepting questions."
+      ],
+    message: "Questions:",
+    name: "questions"
   }
 ];
 
