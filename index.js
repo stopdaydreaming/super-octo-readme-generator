@@ -56,7 +56,7 @@ const questions = [
     name: "contributing"
   },
   {
-    type: "input",
+    type: "list",
     choices: [
         "Please contact the author to write tests.",
         "No tests at this time."
