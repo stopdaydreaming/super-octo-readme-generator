@@ -39,8 +39,8 @@ const questions = [
     type: "list",
     choices: [
       "None",
-      "Apache License",
-      "GNU General Public License",
+      "Apache License 2.0",
+      "GNU GPL v3",
       "MIT License"
     ],
     message: "Choose a License:",

@@ -1,5 +1,6 @@
 
   # testing
+  
 
   ## Description
   testing
@@ -9,7 +10,7 @@
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
-  * [License](#license)
+  * undefined
 
   ## Installation
   testing
@@ -21,10 +22,10 @@
   testing
   
   ## License
-  undefined
+  None
   
   ## Contributing
   No contributions are being accepted at this time.
   
   ## Tests
-  testing
+  No tests at this time.
